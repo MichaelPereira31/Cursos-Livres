@@ -1,0 +1,31 @@
+{
+   "name": "guia-perguntas",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "nodemon": "node index.js",
+      "start": "ts-node src/index.ts",
+      "typeorm": "node --require ts-node/register ./node_modules/typeorm/cli.js"
+   },
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "body-parser": "^1.19.1",
+      "ejs": "^3.1.6",
+      "express": "^4.17.2",
+      "mysql": "^2.14.1",
+      "mysql2": "^2.3.3",
+      "nodemon": "^2.0.15",
+      "pg": "^8.7.3",
+      "reflect-metadata": "^0.1.10",
+      "sequelize": "^6.16.1",
+      "typeorm": "0.2.41"
+   },
+   "devDependencies": {
+      "ts-node": "3.3.0",
+      "@types/node": "^8.0.29",
+      "typescript": "3.3.3333"
+   }
+}
